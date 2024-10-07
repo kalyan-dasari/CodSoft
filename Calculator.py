@@ -32,10 +32,10 @@ print("----------------------------")
 choose = int(input("Enter which operation you want: " ))
 #choose operation 
 if choose == 1:
-    print(f" {num1} + {num2} = {add(num1,num1)}")
+    print(f" {num1} + {num2} = {add(num1,num2)}")
 
 elif choose == 2:
-    print(f" {num1} - {num2} = {sub(num1,num1)}")
+    print(f" {num1} - {num2} = {sub(num1,num2)}")
 
 elif choose == 3:
     print(f" {num1} * {num2} = {mul(num1,num2)}")
