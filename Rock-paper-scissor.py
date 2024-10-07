@@ -4,6 +4,7 @@ choose = ['rock','paper', 'scissor' ]
 computer=random.choice(choose)
 player = None
 while player not in choose:
+    print("rock, paper, scissor")
     player = input("choose any one: ").lower()
     if player in choose:
         print("player: ", player)
